@@ -1,30 +1,18 @@
-<template>
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
-</template>
 
-<script>
-import HelloWorld from './components/HelloWorld.vue'
 
-export default {
-  name: 'App',
-  components: {
-    HelloWorld
-  }
-}
+<script setup>
+import NavBar from './components/NavBar.vue'
+import HeroLayout from './components/HeroLayout.vue';
 </script>
+
+<template> 
+  <NavBar/>
+  <HeroLayout/>
+</template>
 
 <style>
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 20px;
-}
-
-.logo{
-  display: flex;
-  height: 74px;
+  font-family: poppins, Plus Jakarta Sans, Nohemi;
+  background-color: #F9F7E8;
 }
 </style>
