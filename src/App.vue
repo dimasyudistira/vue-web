@@ -13,6 +13,5 @@ import HeroLayout from './components/HeroLayout.vue';
 <style>
 #app {
   font-family: poppins, Plus Jakarta Sans, Nohemi;
-  background-color: #F9F7E8;
 }
 </style>

@@ -3,7 +3,7 @@
   <nav class="navbar navbar-expand-lg">
       <div class="container-fluid">
           <a class="navbar-brand ms-5 " href="#">
-            <img class="logo-nav ms-5" src="../assets/logo-premiuminaja.png" alt="logo" width="98">
+            <img class="logo-nav ms-5" src="../assets/logo.png" alt="logo" width="98">
           </a>
       <div class="navbar-content">
           <ul class="navbar-nav p-lg-5">
